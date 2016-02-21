@@ -1,6 +1,6 @@
 'use strict';
 
-const debug = require('debug')('hello-helper');
+const debug = require('debug')('hello-helper'); 
 const AWS = require('mock-aws-s3');
 
 AWS.config.basePath = __dirname + '/buckets';
